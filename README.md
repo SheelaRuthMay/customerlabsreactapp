@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Customer Labs React Task
 
 In the project directory, you can run:
 
