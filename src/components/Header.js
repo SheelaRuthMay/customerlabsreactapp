@@ -1,10 +1,8 @@
 import { Row, Col } from "antd";
 
 const Header = () => {
- 
   return (
     <div>
-     
       <Row type="flex" align="middle">
         <Col
           md={{ span: 8 }}
@@ -20,10 +18,7 @@ const Header = () => {
           xs={{ span: 24 }}
           className="text-right vertical-align"
         >
-          
-              <p className="text-white m-0">Welcome</p>
-
-         
+          <p className="text-white m-0">Welcome</p>
         </Col>
       </Row>
     </div>

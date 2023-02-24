@@ -1,89 +1,102 @@
-body, * {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+body,
+* {
   margin: 0;
-  font-family: Arial !important;
+  font-family: "Roboto" !important;
 }
 
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --primary-color: #02b59c;
+  --primary-color-dark: #018572;
+  --color-danger: #ff0015;
+  --color-light-1: #f2f2f2;
+  --color-light-2: #bababa;
+}
 
-.header{
+.header {
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 1;
   line-height: 30px;
-  background-color: #02b59c !important;
+  background-color: var(--primary-color) !important;
 }
 
-.footer{
+.footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: #bababa;
+  background-color: var(--color-light-2);
 }
 
-.site-layout{
-  background-color: #ffffff;
+.site-layout {
+  background-color: var(--color-white);
 }
 
-.ant-drawer-header{
-  background-color: #02b59c;
+.ant-drawer-header {
+  background-color: var(--primary-color);
 }
 
-.ant-drawer-header .ant-drawer-title{
-  color: #ffffff;
+.ant-drawer-header .ant-drawer-title {
+  color: var(--color-white);
   font-weight: 500;
 }
 
-.ant-drawer-header span{
-  color: #ffffff;
+.ant-drawer-header span {
+  color: var(--color-white);
   font-weight: bold;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
-.text-left{
+.text-left {
   text-align: left;
 }
 
-.vertical-align{
+.vertical-align {
   vertical-align: middle;
 }
 
-.text-white{
-  color: #ffffff;
+.text-white {
+  color: var(--color-white);
 }
 
-.text-black{
-  color: #000000;
+.text-black {
+  color: var(--color-black);
 }
 
-.logo{
+.logo {
   font-weight: 500;
 }
 
-.m-0{
+.m-0 {
   margin: 0;
 }
 
-.p-0{
+.p-0 {
   padding: 0;
 }
 
-.primary-btn{
-  background-color: #02b59c;
+.primary-btn {
+  background-color: var(--primary-color);
   margin: 50px 0;
 }
 
-.primary-btn:hover{
-  background-color: #018572 !important;
+.primary-btn:hover {
+  background-color: var(--primary-color-dark) !important;
 }
 
-.secondary-btn{
-  background-color: #ff0015;
+.secondary-btn {
+  background-color: var(--color-light-1);
+  color: var(--color-danger);
   margin: 50px 10px;
 }
 
-.secondary-btn:hover{
-  background-color: #bf0010 !important;
+.secondary-btn:hover {
+  background-color: var(--color-light-1) !important;
+  color: var(--color-black) !important;
 }
